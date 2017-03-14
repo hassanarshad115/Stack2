@@ -3,7 +3,7 @@ public class Stack2 {
  private static final int capacity = 3;
  int arr[] = new int[capacity];
  int top = -1;
-
+ 
      public void push(int p)
  {
       if (top < capacity - 1) 
@@ -43,7 +43,7 @@ public class Stack2 {
   }
  }
 
- 
+
  
  public static void main(String[] args)
  {
